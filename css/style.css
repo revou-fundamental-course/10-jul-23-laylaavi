@@ -1,0 +1,148 @@
+body {
+    margin: 0px 30px 30px 30px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.content {
+    width: 50%;
+}
+
+.final-result {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.final-result {
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.calculator-box, .result-box {
+    background-color: #f2f3f5;
+    padding: 15px;
+}
+
+.form-label {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    margin: 0px 30px 20px 0px;
+}
+
+.input-field i {
+    position: absolute;
+}
+
+.icon {
+    margin: 0px 5px 0px 5px;
+    padding: 2px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type=text] {
+    background-color: white;
+    width: 100%;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn {
+    width: auto;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+}
+
+.form-btn {
+    width: 100px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+}
+
+.btn-light {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.form-button, #default {
+    text-align: center;
+}
+
+#result1 {
+    padding-top: 5px;
+    padding-top: 5px;
+    border: 3px solid;
+}
+
+#content-result1 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#content1_result1 {
+    font-weight: 600;
+}
+
+#result3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#download-app {
+    text-align: center;
+}
+
+.app {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+img {
+    height: 50px;
+}
+
+.containerResult {
+    margin-top: 20px;
+}
+
+.downloadResult-box {
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .container { 
+        display: block;
+    }
+
+   .content {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
