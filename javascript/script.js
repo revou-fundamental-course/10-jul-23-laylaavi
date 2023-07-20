@@ -1,6 +1,5 @@
 function hitungBMI() {
     var gender;
-    var genderType;
     var beratBadan = document.getElementById("beratBadan").value;
     var usia = document.getElementById("usia").value;
     var tinggiBadan = document.getElementById("tinggiBadan").value;
@@ -15,6 +14,9 @@ function hitungBMI() {
     // Validasi Kalkulator BMI
     if (document.querySelectorAll("input[type='radio']:checked").length === 0) {
         alert("Jenis kelamin harus dipilih.")
+    }
+    else if (isNaN(beratBadan) || isNaN(usia) || isNaN(tinggiBadan) ) {
+        alert("Input harus berupa angka.")
     }
     else if (beratBadan == "") {
         alert("Berat badan harus diisi.")
