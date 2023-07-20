@@ -11,7 +11,7 @@ body {
     width: 50%;
 }
 
-.final-result {
+.bmiForm, .no-result {
     padding-left: 20px;
     padding-right: 20px;
 }
